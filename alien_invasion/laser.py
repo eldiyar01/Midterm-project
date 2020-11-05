@@ -1,6 +1,7 @@
 import pygame as pg
 from pygame.sprite import Sprite 
 
+
 class Laser(Sprite):
 	
 	def __init__(self, ai_settings, screen, boss):
@@ -17,7 +18,7 @@ class Laser(Sprite):
 
 		self.lb_interval = 7
 		self.index = 0
-		self.rect = pg.Rect(600,0,50,600)
+		self.rect = pg.Rect(600,0,10,600)
 		
 
 	def draw_laser(self):	

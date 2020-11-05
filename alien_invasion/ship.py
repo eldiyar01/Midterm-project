@@ -1,6 +1,7 @@
 import pygame as pg
 from pygame.sprite import Sprite
 
+
 class Ship(Sprite):
 
 	def __init__(self, ai_settings, screen):
@@ -24,6 +25,7 @@ class Ship(Sprite):
 		self.ship_interval = ai_settings.anm_interval
 		self.index = 0
 		self.ship_img = self.ship_images[self.index]
+		
 
 	def update(self):
 		if self.moving_r and self.rect.right < self.screen_rect.right:
@@ -42,3 +44,7 @@ class Ship(Sprite):
 			self.index = 0
 
 		self.screen.blit(self.ship_images[self.index], self.rect)
+
+	def blit_health(self):
+		sh_txt = self.ai_settings.font.render('Health: '+str(self.ai_settings.ship_health), True, (255,255,255))
+		self.screen.blit(sh_txt,(0,0))

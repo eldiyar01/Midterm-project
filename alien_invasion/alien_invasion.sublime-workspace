@@ -1,0 +1,235 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"screen"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"tr",
+				"triangle"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"p",
+				"Set Syntax: Python"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"2+2",
+			"ls",
+			";s"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/eko/Study/ProLan/frequency_analysis.py",
+		"/home/eko/Study/ProLan/wordAndLetters.py",
+		"/home/eko/Study/ProLan/oddTuples.py",
+		"/home/eko/Something/alien_invasion/ship.py",
+		"/home/eko/Bootcamp/done/l5-problem4.py",
+		"/home/eko/Bootcamp/done/L5-Problem5.py",
+		"/home/eko/Study/ProLan/isReverse.py",
+		"/home/eko/Study/ProLan/wordAndLetter.py",
+		"/home/eko/Study/ProLan/L5-Problem-12.py",
+		"/home/eko/Study/ProLan/l5-problem13.py",
+		"/home/eko/Study/ProLan/OddEvenList.py",
+		"/home/eko/Bootcamp/done/l5-problem1.py",
+		"/home/eko/Study/Calculus/Homework.ipynb",
+		"/home/eko/Study/Calculus/homework.ipynb",
+		"/home/eko/ss.py",
+		"/home/eko/Bootcamp/divisible_by_5and7.py",
+		"/home/eko/Bootcamp/password.py",
+		"/home/eko/Bootcamp/numbers_output60.py",
+		"/home/eko/Bootcamp/slash_figure.py",
+		"/home/eko/Study/examples.py",
+		"/home/eko/Bootcamp/spaces_and_numbers.py",
+		"/home/eko/Bootcamp/nested_numbers.py",
+		"/home/eko/Bootcamp/loop_squares.py",
+		"/home/eko/Bootcamp/nested_numbers3.py",
+		"/home/eko/Bootcamp/nested_numbers2.py",
+		"/home/eko/Bootcamp/print_design.py",
+		"/home/eko/Bootcamp/spaced_numbers.py",
+		"/home/eko/Bootcamp/wave_numbers40.py",
+		"/home/eko/Bootcamp/examples(print, for, break, while).py",
+		"/home/eko/Bootcamp/examples.py",
+		"/home/eko/Bootcamp/list_of_squares.py",
+		"/home/eko/Bootcamp/loop_squares",
+		"/home/eko/Bootcamp/L5-Problem5.py",
+		"/home/eko/Bootcamp/l5-problem4.py",
+		"/home/eko/Bootcamp/l5-problem3.py",
+		"/home/eko/Bootcamp/l5-problem2.py",
+		"/home/eko/Bootcamp/l5-problem1.py",
+		"/home/eko/Bootcamp/number_digits.py",
+		"/home/eko/Bootcamp/star_triangle.py",
+		"/home/eko/Bootcamp/l2-problem10.py",
+		"/run/user/1000/gvfs/mtp:host=Xiaomi_SDM660-MTP__SN%3A466A5716_f4fd81c/Внутренний общий накопитель/Documents/l2-problem-2.py",
+		"/home/eko/Bootcamp/joke.py",
+		"/home/eko/Bootcamp/f_lesson",
+		"/home/eko/file.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "alien_invasion.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

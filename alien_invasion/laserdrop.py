@@ -1,6 +1,7 @@
 import pygame as pg 
 from pygame.sprite import Sprite 
 
+
 class LaserDrop(Sprite):
 
 	def __init__(self, ai_settings, screen, ld_position):
