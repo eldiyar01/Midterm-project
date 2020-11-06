@@ -18,13 +18,13 @@ class Settings():
 		self.soundtrack = pg.mixer.music.load('music/Swarm-2fast.mp3')
 
 		self.ship_speed = 4
-		self.ship_health = 10
+		self.ship_health = 5
 		self.ship_fs = pg.mixer.Sound('snd/laser.wav')
 		self.ship_d = pg.mixer.Sound('snd/dammage.wav')
 
 		self.bullet_speed = 4
 		
-		self.boss_health = 60
+		self.boss_health = 200
 		self.boss_fs = pg.mixer.Sound('snd/laser_beam.wav')
 		self.lf_interval = 1000
 		self.laser_fire = False
@@ -38,7 +38,7 @@ class Settings():
 		self.spacemin_speed = 3
 		self.spacemin_health = 3
 		self.sm_add_interval = 300
-		self.sm_count = 8
+		self.sm_count = 10
 		self.sm_lf = pg.mixer.Sound('snd/sm_laser.wav')
 
 		self.smb_speed = 2

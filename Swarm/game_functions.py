@@ -16,7 +16,7 @@ def check_keydown(event, ai_settings, screen, ship, bullets):
 	elif event.key == pg.K_LEFT:
 		ship.moving_l = True
 	elif event.key == pg.K_SPACE:
-		if len(bullets) < 5:
+		if len(bullets) < 3:
 			fire_bullet(ai_settings, screen, ship, bullets)
 	elif event.key == pg.K_ESCAPE:
 		ai_settings.g_pause = True
@@ -75,7 +75,7 @@ def add_spacemin(ai_settings, screen, spacemins):
 	if len(spacemins) < ai_settings.sm_count and ai_settings.sm_add_interval < 0:
 		spacemins.add(n_spacemin)
 		ai_settings.sm_position = random.randint(200,400)
-		ai_settings.sm_add_interval = random.randint(400,1000)
+		ai_settings.sm_add_interval = random.randint(200,500)
 
 	ai_settings.sm_add_interval -= 1
 	
@@ -125,6 +125,9 @@ def boss_dammage(ai_settings, boss, bullets):
 	for collision in collisions:
 		ai_settings.boss_health -= 1
 
+	if ai_settings.boss_health <= 0:
+		ai_settings.g_pause = True
+
 def ship_dammage(ai_settings, ship, laserdrops, laser, sm_bullets):
 	if pg.sprite.collide_rect(laser, ship) and ai_settings.laser_fire:
 		ai_settings.ship_health -= 1
@@ -139,6 +142,7 @@ def ship_dammage(ai_settings, ship, laserdrops, laser, sm_bullets):
 	for collission in sm_collissions:
 		ai_settings.ship_health -= 1
 		ai_settings.ship_d.play()
+	
 	if ai_settings.ship_health <= 0:
 		ai_settings.g_pause = True
 
@@ -202,8 +206,8 @@ def game_stop(ai_settings, screen, ship, bullets, spacemins, laserdrops, sm_bull
 					spacemins.empty()
 					laserdrops.empty()
 					sm_bullets.empty()
-					ai_settings.boss_health = 60
-					ai_settings.ship_health = 10
+					ai_settings.boss_health = 200
+					ai_settings.ship_health = 5
 					ai_settings.lr_timer = 6500
 					ai_settings.sm_add_interval = 300
 					ai_settings.laser_fire = False
